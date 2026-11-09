@@ -7,9 +7,9 @@ def addNumbers(a, b):
     return a + b
 
 def isOdd(num):
-    if num % 2 == 0:
+    if (num % 2):
         return 1
-    if num % 2 == 1:
+    if not (num % 2):
         return 0
 
 if __name__ == '__main__':
